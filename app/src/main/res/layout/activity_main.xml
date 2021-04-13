@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="#ec2024"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add-on"
+      android:layout_margin="10dp"
+        android:textSize="18sp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/add_on"
+        android:layout_below="@id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        android:orientation="horizontal"
+        app:spanCount="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promo Code "
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/promo"
+        android:layout_below="@id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        android:orientation="horizontal"
+        app:spanCount="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bill Details "
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bill"
+        android:layout_gravity="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/confirm_your_order"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_gradiant"/>
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
