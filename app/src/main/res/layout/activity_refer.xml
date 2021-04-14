@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Refer">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/banimg"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/banner"/>
+
+
+    <TextView
+        android:id="@+id/reftext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banimg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="479dp"
+        android:text="Your referral code "
+        android:textColor="#000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="251dp"
+        android:layout_marginLeft="251dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="444dp"
+        android:background="@drawable/sharebutton" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="346dp"
+        android:src="@drawable/share" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="179dp"
+        android:layout_marginBottom="342dp"
+        android:src="@drawable/refer" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="339dp"
+        android:layout_marginBottom="345dp"
+        android:src="@drawable/earn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="122dp"
+        android:text="@string/how_to_earn"
+        android:textColor="@color/white"
+        android:background="@color/red"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="279dp"
+        android:text="@string/my_referral" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banimg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginBottom="346dp"
+        android:text="- - - - - -  - - - - -" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banimg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginBottom="343dp"
+        android:text="- - - - - -  - - - - -" />
+
+
+
+
+</RelativeLayout>

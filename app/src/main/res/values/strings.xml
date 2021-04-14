@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">jst</string>
     <string name="confirm_your_order">Confirm your order</string>
+    <string name="my_referral">My Referral</string>
+    <string name="how_to_earn">How to Earn</string>
 </resources>
